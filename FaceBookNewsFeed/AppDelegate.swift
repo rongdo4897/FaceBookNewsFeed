@@ -16,12 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        let feedController = FeedController(collectionViewLayout: UICollectionViewFlowLayout())
-        let navigationController = UINavigationController(rootViewController: feedController)
-        window?.rootViewController = navigationController
+//        window?.rootViewController = navigationController
         
-        navigationController.navigationBar.barTintColor = UIColor(red: 51.0/255.0, green: 90.0/255.0, blue: 149.0/255.0, alpha: 1)
-        navigationController.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        window?.rootViewController = CustomTabbarController()
+        
+        UINavigationBar.appearance().barTintColor = UIColor(red: 51.0/255.0, green: 90.0/255.0, blue: 149.0/255.0, alpha: 1)
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         
         application.statusBarStyle = .lightContent
         return true

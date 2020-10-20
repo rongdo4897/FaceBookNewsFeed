@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A483D0E253EBC6C00B3161A /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A483D0D253EBC6C00B3161A /* CustomTabbarController.swift */; };
+		0A483D12253EC06F00B3161A /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A483D11253EC06F00B3161A /* OtherController.swift */; };
 		0A9AD8BD253D44E7009F3ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AD8BC253D44E7009F3ECB /* AppDelegate.swift */; };
 		0A9AD8C1253D44E7009F3ECB /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AD8C0253D44E7009F3ECB /* FeedController.swift */; };
 		0A9AD8C6253D44EB009F3ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AD8C5253D44EB009F3ECB /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A483D0D253EBC6C00B3161A /* CustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
+		0A483D11253EC06F00B3161A /* OtherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherController.swift; sourceTree = "<group>"; };
 		0A9AD8B9253D44E7009F3ECB /* FaceBookNewsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookNewsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9AD8BC253D44E7009F3ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A9AD8C0253D44E7009F3ECB /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			children = (
 				0A9AD8BC253D44E7009F3ECB /* AppDelegate.swift */,
 				0A9AD8C0253D44E7009F3ECB /* FeedController.swift */,
+				0A483D0D253EBC6C00B3161A /* CustomTabbarController.swift */,
+				0A483D11253EC06F00B3161A /* OtherController.swift */,
 				0A9AD8C5253D44EB009F3ECB /* Assets.xcassets */,
 				0A9AD8C7253D44EB009F3ECB /* LaunchScreen.storyboard */,
 				0A9AD8CA253D44EB009F3ECB /* Info.plist */,
@@ -132,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A9AD8C1253D44E7009F3ECB /* FeedController.swift in Sources */,
+				0A483D0E253EBC6C00B3161A /* CustomTabbarController.swift in Sources */,
+				0A483D12253EC06F00B3161A /* OtherController.swift in Sources */,
 				0A9AD8BD253D44E7009F3ECB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
